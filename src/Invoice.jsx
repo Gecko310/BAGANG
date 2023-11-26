@@ -35,6 +35,8 @@ function Invoice() {
       <ToggleButton size="small" value="Add">Add</ToggleButton>
     <div>Ghi chú</div>
         <TextField size="medium" className="w-96" id="outlined-basic" label="Ghi chú" variant="outlined" />
+    <div>Tổng tiền:</div>
+    <ToggleButton size="small" value="download">Tải hóa đơn</ToggleButton>
     </Box>
     </>
   )
