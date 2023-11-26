@@ -19,12 +19,18 @@ function Invoice() {
     <div>Ngày đáo hạn</div>
       <TextField size="small" className="w-96" id="outlined-basic" label="Ngày đáo hạn" variant="outlined" />
       <div className="flex">
-        <div>Tên sản phẩm</div>
-        <TextField size="small" className="w-96" id="outlined-basic" label="Tên sản phẩm" variant="outlined" />
-        <div>Số lượng</div>
-        <TextField size="small" className="w-96" id="outlined-basic" label="Số lượng" variant="outlined" />
-        <div>Giá</div>
-        <TextField size="small" className="w-96" id="outlined-basic" label="Giá" variant="outlined" />
+        <div>
+            <div>Tên sản phẩm</div>
+            <TextField size="small" className="w-96" id="outlined-basic" label="Tên sản phẩm" variant="outlined" />
+        </div>
+        <div>
+            <div>Số lượng</div>
+            <TextField size="small" className="w-96" id="outlined-basic" label="Số lượng" variant="outlined" />
+        </div>
+        <div>
+            <div>Giá</div>
+            <TextField size="small" className="w-96" id="outlined-basic" label="Giá" variant="outlined" />
+        </div>
       </div>
       <ToggleButton size="small" value="Add">Add</ToggleButton>
     </Box>
