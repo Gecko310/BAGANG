@@ -21,18 +21,20 @@ function Invoice() {
       <div className="flex">
         <div>
             <div>Tên sản phẩm</div>
-            <TextField size="small" className="w-96" id="outlined-basic" label="Tên sản phẩm" variant="outlined" />
+            <TextField size="small" className="w-40" id="outlined-basic" label="" variant="outlined" />
         </div>
         <div>
             <div>Số lượng</div>
-            <TextField size="small" className="w-96" id="outlined-basic" label="Số lượng" variant="outlined" />
+            <TextField size="small" className="w-40" id="outlined-basic" label="" variant="outlined" />
         </div>
         <div>
             <div>Giá</div>
-            <TextField size="small" className="w-96" id="outlined-basic" label="Giá" variant="outlined" />
+            <TextField size="small" className="w-40" id="outlined-basic" label="" variant="outlined" />
         </div>
       </div>
       <ToggleButton size="small" value="Add">Add</ToggleButton>
+    <div>Ghi chú</div>
+        <TextField size="medium" className="w-96" id="outlined-basic" label="Ghi chú" variant="outlined" />
     </Box>
     </>
   )
